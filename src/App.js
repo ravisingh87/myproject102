@@ -1,23 +1,13 @@
 import './App.css';
+import Login from './component/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Login/>
     </div>
   );
 }
 
 export default App;
+// React App deploy on https://myproject102-7a6a4.web.app/
