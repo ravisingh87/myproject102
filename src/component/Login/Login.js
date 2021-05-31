@@ -18,16 +18,16 @@ const Login = () => {
                     <input type="submit" value="Login" className="btn-solid" />
                     <p className="social-text">Or Sign in with social-media platform</p>
                     <div className="social-media">
-                        <a href="#" className="social-icon">
+                        <a href="" className="social-icon">
                             <i className="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" className="social-icon">
+                        <a href="" className="social-icon">
                             <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="#" className="social-icon">
+                        <a href="" className="social-icon">
                             <i className="fab fa-googel"></i>
                         </a>
-                        <a href="#" className="social-icon">
+                        <a href="" className="social-icon">
                             <i className="fab fa-linkedin-in"></i>
                         </a>
                     </div>
