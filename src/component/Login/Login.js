@@ -1,20 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Login.css'
 
 const Login = () => {
- const sign_in_btn = document.querySelector("#sign-in-btn");
- const sign_up_btn = document.querySelector("#sign-up-btn");
- const container = document.querySelector(".container");
+const [show,setShow] = useState(true);
 
-sign_up_btn.addEventListener("click", () => {
-  container.classList.add("sign-up-mode");
-});
-
-sign_in_btn.addEventListener("click", () => {
-  container.classList.remove("sign-up-mode");
-});
     return (
-      <div className="container">
+      <div className={show?"container":"container sign-up-mode"}>
       <div className="forms-container">
         <div className="signin-signup">
           <form action="#" className="sign-in-form">
@@ -86,11 +77,11 @@ sign_in_btn.addEventListener("click", () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
               ex ratione. Aliquid!
             </p>
-            <button className="btn transparent" id="sign-up-btn">
+            <button className="btn transparent" id="sign-up-btn" onClick={()=>setShow(false)}>
               Sign up
             </button>
           </div>
-          <img src="img/log.svg" className="image" alt="" />
+          <img src="logo2.svg" className="image" alt="" />
         </div>
         <div className="panel right-panel">
           <div className="content">
@@ -99,11 +90,11 @@ sign_in_btn.addEventListener("click", () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
               laboriosam ad deleniti.
             </p>
-            <button className="btn transparent" id="sign-in-btn">
+            <button className="btn transparent" id="sign-in-btn" onClick={()=>setShow(true)}>
               Sign in
             </button>
           </div>
-          <img src="img/register.svg" className="image" alt="" />
+          <img src="logo1.svg" className="image" alt="" />
         </div>
       </div>
     </div>
