@@ -1,10 +1,13 @@
 import './App.css';
-import Login from './component/Login/Login';
+// import Login from './component/Login/Login';
+import Product from './component/Product/Product';
+
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+      {/* <Login/> */}
+      <Product/>
     </div>
   );
 }

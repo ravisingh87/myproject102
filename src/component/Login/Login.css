@@ -394,7 +394,7 @@ form.sign-in-form {
   }
 
   .container.sign-up-mode:before {
-    bottom: 28%;
+    bottom: 18%;
     left: 50%;
   }
 }

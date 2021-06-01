@@ -1,0 +1,63 @@
+<div className="container">
+    //      <div className="card">
+    //          <div className="shoeBackground">
+    //             <div className="gradients">
+    //                 <div className="gradient second" color="blue"></div>
+    //                 <div className="gradient" color="red"></div>
+    //                 <div className="gradient" color="green"></div>
+    //                 <div className="gradient" color="orange"></div>
+    //                 <div className="gradient" color="black"></div>
+    //             </div>
+    //             <h1 className="nike">nike</h1>
+    //             <img src="../../img/logo.png" alt="" className="logo"/>
+    //             <div className="share">
+    //                 <i className="fas fa-share-alt"></i>
+    //             </div>
+    //             <img src="img/blue.png" alt="" className="shoe " color="blue"/>
+    //             <img src="img/red.png" alt="" className="shoe show" color="red"/>
+    //             <img src="img/green.png" alt="" className="shoe" color="green"/>
+    //             <img src="img/orange.png" alt="" className="shoe" color="orange"/>
+    //             <img src="img/black.png" alt="" className="shoe" color="black"/>
+    //          </div>
+    //          <div className="info">
+    //              <div className="shoeName">
+    //                  <div>
+    //                      <h1 className="big">Nike Zoom KD 12</h1>
+    //                      <span className="new">new</span>
+    //                  </div>
+    //                  <h3 className="smal">Men's running shoes</h3>
+    //              </div>
+    //              <div className="description">
+    //                  <h3 className="title">Product Info</h3>
+    //                  <p className="text">Lorem Ipsum is simply dummy test of the pricing and typesetting Industry. Lorem Ipsum has been the industry's.</p>
+    //              </div>
+    //              <div className="color-container">
+    //                  <div className="title">Color</div>
+    //                  <div className="colors">
+    //                      <span className="color" primary="#2175f5" color="blue"></span>
+    //                      <span className="color" primary="#f84848" color="red"></span>
+    //                      <span className="color" primary="#29b864" color="green"></span>
+    //                      <span className="color" primary="#ff5521" color="orange"></span>
+    //                      <span className="color" primary="#444" color="black"></span>
+    //                  </div>
+    //              </div>
+    //              <div className="size-container">
+    //                  <h3 className="title">size</h3>
+    //                  <div className="sizes">
+    //                      <div className="size">7</div>
+    //                      <div className="size">8</div>
+    //                      <div className="size">9</div>
+    //                      <div className="size">10</div>
+    //                      <div className="size">11</div>
+    //                  </div>
+    //              </div>
+    //              <div className="buy-price">
+    //                  <div className="buy"><i className="fas fa-shopping-cart">Add to cart</i></div>
+    //                  <div className="price">
+    //                  <i className="fas fa-rupee-sign"></i>
+    //                  <h1>200</h1>
+    //                  </div>
+    //              </div>
+    //          </div>
+    //      </div>
+    //  </div>
